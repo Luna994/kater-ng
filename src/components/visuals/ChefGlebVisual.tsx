@@ -27,7 +27,7 @@ export const ChefGlebVisual: React.FC = () => {
             {/* Real photo uploaded by user with fallback */}
             {!imgError ? (
               <img
-                src="/Шеф-повар украшает блюдо микрозеленью.png"
+                src={`${import.meta.env.BASE_URL}Шеф-повар украшает блюдо микрозеленью.png`}
                 alt="Шеф-повар Глеб Саюткин украшает блюдо микрозеленью"
                 referrerPolicy="no-referrer"
                 onError={(e) => {
