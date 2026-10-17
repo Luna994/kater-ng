@@ -17,7 +17,11 @@ export const FoodDishVisual: React.FC<Props> = ({ type, size = 'md', imageUrl, a
       {imageUrl && !hasError ? (
         <div className="relative w-full h-full overflow-hidden">
           <img
-            src={imageUrl}
+            src={
+             imageUrl
+               ? `${import.meta.env.BASE_URL}${imageUrl.replace(/^\/+/, '')}`
+              : undefined
+            }
             alt={alt}
             referrerPolicy="no-referrer"
             onError={() => setHasError(true)}
