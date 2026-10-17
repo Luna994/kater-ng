@@ -155,7 +155,7 @@ export default function App() {
   const totalCartAzn = cart.reduce((sum, item) => sum + item.unitPrice * item.quantity, 0);
 
   return (
-    <div className="min-h-screen bg-[#0d0709] text-[#f5ede6] selection:bg-rose-900 selection:text-white flex flex-col">
+    <div className="min-h-screen bg-[#24060f] text-[#fff1f2] selection:bg-rose-700 selection:text-white flex flex-col">
       {/* Header */}
       <Header
         cart={cart}
@@ -209,12 +209,12 @@ export default function App() {
       />
 
       {/* Mobile Sticky Order Bar */}
-      <div className="md:hidden fixed bottom-0 left-0 right-0 z-30 p-3 bg-[#13080c]/95 backdrop-blur-lg border-t border-rose-950/80 flex items-center justify-between gap-3 shadow-2xl">
+      <div className="md:hidden fixed bottom-0 left-0 right-0 z-30 p-3 bg-[#2b0713]/95 backdrop-blur-xl border-t border-rose-700/70 flex items-center justify-between gap-3 shadow-2xl">
         <button
           onClick={() => setIsOrderModalOpen(true)}
-          className="flex items-center gap-2 text-xs text-rose-200"
+          className="flex items-center gap-2 text-xs text-rose-100"
         >
-          <div className="relative p-2 rounded-xl bg-zinc-900 border border-rose-900/40">
+          <div className="relative p-2 rounded-xl bg-[#3d0e1e] border border-rose-600/60 shadow">
             <ShoppingBag className="w-4 h-4 text-amber-400" />
             {totalItemsCount > 0 && (
               <span className="absolute -top-1 -right-1 w-4 h-4 rounded-full bg-rose-600 text-[10px] font-bold text-white flex items-center justify-center">

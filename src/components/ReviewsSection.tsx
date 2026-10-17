@@ -4,7 +4,7 @@ import { Star, MessageSquareQuote, CheckCircle2 } from 'lucide-react';
 
 export const ReviewsSection: React.FC = () => {
   return (
-    <section id="reviews" className="py-16 md:py-24 bg-[#0d0709] relative border-t border-rose-950/60">
+    <section id="reviews" className="py-16 md:py-24 bg-gradient-to-b from-[#20050e] via-[#2a0712] to-[#1c040a] relative border-t border-rose-800/60">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         
         {/* Section Header */}
@@ -26,7 +26,7 @@ export const ReviewsSection: React.FC = () => {
           {REVIEWS.map(rev => (
             <div
               key={rev.id}
-              className="bg-[#170c10] border border-rose-950/80 hover:border-rose-900/60 rounded-3xl p-6 sm:p-7 flex flex-col justify-between transition-all"
+              className="bg-[#2f0916] border border-rose-800/60 hover:border-rose-600/70 rounded-3xl p-6 sm:p-7 flex flex-col justify-between transition-all shadow-lg"
             >
               <div>
                 {/* Rating stars & verified badge */}

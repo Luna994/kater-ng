@@ -12,7 +12,7 @@ export const Footer: React.FC<Props> = ({ onNavigate, onOpenOrder }) => {
   };
 
   return (
-    <footer className="bg-[#090506] border-t border-rose-950/80 pt-16 pb-12 text-zinc-400">
+    <footer className="bg-[#1a040a] border-t border-rose-800/80 pt-16 pb-12 text-rose-200/80">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-12 gap-10 pb-12 border-b border-rose-950/60">

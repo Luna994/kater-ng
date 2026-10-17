@@ -11,7 +11,7 @@ export const DeliverySection: React.FC<Props> = ({ onSelectZoneForOrder }) => {
   const [selectedZone, setSelectedZone] = useState<DeliveryZone>(BAKU_ZONES[0]);
 
   return (
-    <section id="delivery" className="py-16 md:py-24 bg-[#0f080b] relative">
+    <section id="delivery" className="py-16 md:py-24 bg-gradient-to-b from-[#1e040b] via-[#280713] to-[#20050e] relative border-y border-rose-800/60">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         
         {/* Section Header */}

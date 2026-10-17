@@ -10,9 +10,9 @@ interface Props {
 
 export const Hero: React.FC<Props> = ({ onOpenOrder, onNavigateToCatering, onNavigateToMenu }) => {
   return (
-    <section id="hero" className="relative pt-6 pb-16 lg:py-20 overflow-hidden">
+    <section id="hero" className="relative pt-6 pb-16 lg:py-20 overflow-hidden bg-gradient-to-b from-[#2d0714] via-[#25050f] to-[#20040c]">
       {/* Decorative background radial lights */}
-      <div className="absolute top-1/4 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[700px] h-[500px] bg-gradient-to-b from-rose-900/25 to-amber-900/10 rounded-full blur-3xl -z-10 pointer-events-none" />
+      <div className="absolute top-1/4 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[850px] h-[600px] bg-gradient-to-b from-rose-700/35 via-red-800/25 to-transparent rounded-full blur-3xl -z-10 pointer-events-none" />
 
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 items-center">

@@ -60,7 +60,7 @@ export const CateringCalculator: React.FC<Props> = ({ onBookCatering }) => {
   };
 
   return (
-    <section id="catering" className="py-16 md:py-24 bg-[#140a0e] relative border-y border-rose-950/70">
+    <section id="catering" className="py-16 md:py-24 bg-gradient-to-b from-[#20050e] via-[#2c0814] to-[#1e040b] relative border-y border-rose-800/60">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         
         {/* Section Header */}
@@ -78,7 +78,7 @@ export const CateringCalculator: React.FC<Props> = ({ onBookCatering }) => {
         </div>
 
         {/* Calculator Main Box */}
-        <div className="bg-[#1c0e14] border border-rose-900/40 rounded-3xl p-6 sm:p-10 shadow-2xl max-w-4xl mx-auto">
+        <div className="bg-[#330a17] border border-rose-700/60 rounded-3xl p-6 sm:p-10 shadow-2xl max-w-4xl mx-auto">
           
           <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 items-center">
             

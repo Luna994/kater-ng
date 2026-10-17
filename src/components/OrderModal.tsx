@@ -119,10 +119,10 @@ export const OrderModal: React.FC<Props> = ({
 
   return (
     <div className="fixed inset-0 z-50 flex items-center justify-center p-3 sm:p-4 bg-black/80 backdrop-blur-md overflow-y-auto">
-      <div className="relative w-full max-w-2xl bg-[#160c10] border border-rose-900/60 rounded-3xl shadow-2xl overflow-hidden my-6">
+      <div className="relative w-full max-w-2xl bg-[#2c0814] border border-rose-700/70 rounded-3xl shadow-2xl overflow-hidden my-6">
         
         {/* Header bar */}
-        <div className="p-5 sm:p-6 bg-gradient-to-r from-[#241118] via-[#1f0e15] to-[#160c10] border-b border-rose-950/80 flex items-center justify-between">
+        <div className="p-5 sm:p-6 bg-gradient-to-r from-[#3d0e1e] via-[#320917] to-[#280612] border-b border-rose-800/80 flex items-center justify-between">
           <div className="flex items-center gap-3">
             <div className="w-10 h-10 rounded-xl bg-rose-600/20 text-rose-400 flex items-center justify-center border border-rose-700/40">
               <ChefHat className="w-5 h-5 text-amber-300" />

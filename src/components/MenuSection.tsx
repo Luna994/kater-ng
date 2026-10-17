@@ -76,12 +76,12 @@ export const MenuSection: React.FC<Props> = ({ onAddToCartWithOptions, onQuickOr
   };
 
   return (
-    <section id="menu" className="py-16 md:py-24 bg-[#10080a] relative">
+    <section id="menu" className="py-16 md:py-24 bg-gradient-to-b from-[#20040c] via-[#2a0712] to-[#1e040b] relative border-t border-rose-900/40">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         
         {/* Section Header */}
         <div className="text-center max-w-3xl mx-auto mb-12">
-          <div className="inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-rose-950/60 border border-rose-800/40 text-xs font-semibold text-rose-300 mb-3">
+          <div className="inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-rose-950/80 border border-rose-700/60 text-xs font-semibold text-rose-200 mb-3">
             <Flame className="w-3.5 h-3.5 text-amber-400" />
             <span>Фирменное борщевое меню шефа Саюткина</span>
           </div>
@@ -101,7 +101,7 @@ export const MenuSection: React.FC<Props> = ({ onAddToCartWithOptions, onQuickOr
                 className={`px-4 py-2 rounded-xl text-xs sm:text-sm font-medium transition-all cursor-pointer ${
                   activeCategory === cat.id
                     ? 'bg-gradient-to-r from-rose-700 to-amber-700 text-white shadow-lg shadow-rose-950/50'
-                    : 'bg-[#1b0e12] text-zinc-400 hover:text-white hover:bg-[#251419] border border-rose-950/80'
+                    : 'bg-[#380b18] text-rose-200 hover:text-white hover:bg-[#480f20] border border-rose-800/60'
                 }`}
               >
                 {cat.label}
@@ -121,7 +121,7 @@ export const MenuSection: React.FC<Props> = ({ onAddToCartWithOptions, onQuickOr
             return (
               <div
                 key={item.id}
-                className="group relative bg-[#170c10] border border-rose-950/80 hover:border-rose-800/60 rounded-3xl p-5 sm:p-6 flex flex-col justify-between transition-all duration-300 hover:shadow-2xl hover:shadow-rose-950/30"
+                className="group relative bg-[#2e0915] border border-rose-800/60 hover:border-rose-500/80 rounded-3xl p-5 sm:p-6 flex flex-col justify-between transition-all duration-300 hover:shadow-2xl hover:shadow-rose-950/50"
               >
                 {/* Top badges */}
                 <div className="absolute top-8 left-8 z-10 flex flex-col gap-1.5 pointer-events-none">

@@ -4,10 +4,10 @@ import { Flame, CheckCircle2, Heart, Sparkles, Utensils, BookOpen, Compass, Shie
 
 export const ChefSection: React.FC = () => {
   return (
-    <section id="chef" className="py-16 md:py-24 bg-[#0d0709] relative overflow-hidden border-t border-rose-950/60">
+    <section id="chef" className="py-16 md:py-24 bg-gradient-to-b from-[#1e040b] via-[#290713] to-[#20050e] relative overflow-hidden border-t border-rose-800/60">
       {/* Decorative ambient lighting */}
-      <div className="absolute top-1/2 left-0 w-96 h-96 bg-rose-900/10 rounded-full blur-3xl pointer-events-none" />
-      <div className="absolute bottom-0 right-0 w-96 h-96 bg-amber-900/10 rounded-full blur-3xl pointer-events-none" />
+      <div className="absolute top-1/2 left-0 w-96 h-96 bg-rose-700/25 rounded-full blur-3xl pointer-events-none" />
+      <div className="absolute bottom-0 right-0 w-96 h-96 bg-red-700/20 rounded-full blur-3xl pointer-events-none" />
 
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         
